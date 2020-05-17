@@ -9,6 +9,9 @@ import scrapy
 
 
 class WebscraperItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+
+    url = scrapy.field()
+    title = scrapy.field()
+    author = scrapy.field()
+    text = scrapy.field()
     pass
