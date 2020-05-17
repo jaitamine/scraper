@@ -10,8 +10,8 @@ import scrapy
 
 class WebscraperItem(scrapy.Item):
 
-    url = scrapy.field()
-    title = scrapy.field()
-    author = scrapy.field()
-    text = scrapy.field()
+    url = scrapy.Field()
+    title = scrapy.Field()
+    author = scrapy.Field()
+    text = scrapy.Field()
     pass
