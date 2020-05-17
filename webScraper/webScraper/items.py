@@ -8,10 +8,9 @@
 import scrapy
 
 
-class WebscraperItem(scrapy.Item):
+class BbcArticles(scrapy.Item):
 
     url = scrapy.Field()
     title = scrapy.Field()
-    author = scrapy.Field()
     text = scrapy.Field()
-    pass
+    author = scrapy.Field()
