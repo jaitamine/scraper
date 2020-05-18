@@ -1,6 +1,6 @@
-# Project Title
+# Project
 
-This is a web scraper project based on the Scrapy framework. The bbc news website articles are the resources being scraped and persisted in a local mongodb database. Alongside the scraper there is a flask web api that fetches the articles based on keyword search by the user.
+This is a web scraper project based on the Scrapy framework. The bbc news website articles are the resources being scraped and persisted in a local mongodb database. Alongside the scraper, there is a flask web api that fetches the articles based on keyword search by the user.
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -8,9 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running. These steps are for windows platform
+A step by step series of examples that tell you how to get a development env running. These steps are for windows. platform.
 
-Navigate to your workspace directory
+Navigate to your workspace directory.
 
 Create a virtual environment
 ```
